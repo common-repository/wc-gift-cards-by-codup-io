@@ -1,0 +1,25 @@
+.codup-settings-page {
+    width : 68%;
+    display: inline-block;
+    float: left;
+}
+
+.stick-to-right {
+    margin-top: 60px;
+    display: inline-block;
+}
+
+#codup-topad{
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+    background-color: white;
+    margin-right: 0;
+}
+
+#codup-topad img{
+	vertical-align: middle;
+    padding: 10px;
+    height: 16px;
+}
+#codup-topad a{
+	vertical-align: middle;
+}

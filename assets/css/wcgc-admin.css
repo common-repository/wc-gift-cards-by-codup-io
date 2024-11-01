@@ -1,0 +1,72 @@
+p.form-field._gift_card_amount_field span.variation-amount {
+    float: left;
+    padding: 2px 20px;
+    margin: 5px;
+    position: relative;
+    border: 1px solid #cbcbcb;
+}
+
+p.form-field._gift_card_amount_field span.variation-amount span.amount {
+    font-size: 13px;
+    color: #838383;
+}
+
+
+#gift_card-amount {
+    width: 100px;
+    margin-right: 10px;
+}
+
+a.add-new-amount {
+    background-color: #009c0f;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: white;
+}
+
+span.add-new-amount-section {
+    display: inline-block;
+}
+
+input.gc_amount_type {
+    margin-left: 20px !important;
+}
+
+
+#range-div input[type=number]{
+    width: 25%;
+    margin-right: 20px;
+}
+p.form-field._gift_card_amount_field span.variation-amount span.amount {
+    font-size: 13px;
+    color: #838383;
+}
+
+
+p.form-field._gift_card_amount_field a.gc-remove-amount:hover {
+    color: #b20000;
+}
+
+p.form-field._gift_card_amount_field a.gc-remove-amount:after {
+    content: 'x';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+}
+#amount_validation{
+    font-weight: bolder;
+    color: red;
+}
+.gift-card-amount .blockUI.blockOverlay::before{
+    left: 33%;
+}
+#range_validation {
+    font-weight: bolder;
+    color: red;
+}
+.post-type-codup_gift_card a.page-title-action {
+    display: none;
+}
+.cgc-exipry-days{
+    display:none;
+}
